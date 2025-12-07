@@ -4,10 +4,8 @@
   "description": "Desktop chat and voice app for small groups",
   "main": "index.js",
   "scripts": {
-    "postinstall": "node scripts/setup.js",
-    "start": "cd server && npm start & cd client && npm start",
-    "dev": "npm start",
-    "build": "cd client && npm run build"
+    "postinstall": "node scripts/setup.js",,
+    "start": "cd server && npm start"
   },
   "keywords": ["chat", "voice", "electron", "webrtc"],
   "author": "",
