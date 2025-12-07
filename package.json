@@ -2,9 +2,8 @@
   "name": "rf-chater",
   "version": "1.0.0",
   "description": "Desktop chat and voice app for small groups",
-  "main": "index.js",
   "scripts": {
-    "postinstall": "node scripts/setup.js",,
+    "install-all": "npm install && cd server && npm install",
     "start": "cd server && npm start"
   },
   "keywords": ["chat", "voice", "electron", "webrtc"],
